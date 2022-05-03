@@ -5,7 +5,7 @@ p { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 
 /* header sizes */
 .size-1 { font-family: Hack, monospace; font-size: 2.5rem; }
-.szie-2 { font-family: Hack, monospace; font-size: 2rem;   } /* ISSUE WITH THIS ONE */
+.size-2 { font-family: Hack, monospace; font-size: 2rem;   } /* ISSUE WITH THIS ONE */
 .size-3 { font-family: Hack, monospace; font-size: 1.5rem; }
 
 /* colors */
