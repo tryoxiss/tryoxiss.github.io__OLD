@@ -3,29 +3,23 @@ p {
     font-family: Hack, monospace;
 }
 
-body {
-    background-color: #181B25;
-    margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #F5FBEF;
-  }
-  
-  #navbar {
-    width: 100%;
-    width: 100%;
-    float: left;
-    margin: 0 0 1em 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
-  }
-
 .logo { 
     color: #FFC2E5;
     font-family: Hack, monospace;
 }
 
-/* Header 1's */
+body { 
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p { 
+    margin: 0
+    padding: 0
+    border: 0
+}
+
+/*
+h1's
 .red-header-1    { color: #FC9797; font-family: Hack, monospace; font-size: 2.5rem; }
 .orange-header-1 { color: #FFAE80; font-family: Hack, monospace; font-size: 2.5rem; }
 .yellow-header-1 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2.5rem; }
@@ -33,7 +27,7 @@ body {
 .blue-header-1   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2.5rem; }
 .violet-header-1 { color: #AE94D0; font-family: Hack, monospace; font-size: 2.5rem; }
 
-/* header 2's */
+h2's
 .red-header-2    { color: #FC9797; font-family: Hack, monospace; font-size: 2rem; }
 .orange-header-2 { color: #FFAE80; font-family: Hack, monospace; font-size: 2rem; }
 .yellow-header-2 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2rem; }
@@ -41,13 +35,14 @@ body {
 .blue-header-2   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2rem; }
 .violet-header-2 { color: #AE94D0; font-family: Hack, monospace; font-size: 2rem; }
 
-/* header 3+ */
+h3's
 .red-header-3    { color: #FC9797; font-family: Hack, monospace; font-size: 1.5rem; }
 .orange-header-3 { color: #FFAE80; font-family: Hack, monospace; font-size: 1.5rem; }
 .yellow-header-3 { color: #FBF8B1; font-family: Hack, monospace; font-size: 1.5rem; }
 .green-header-3  { color: #8EFFB6; font-family: Hack, monospace; font-size: 1.5rem; }
 .blue-header-3   { color: #AEFCFE; font-family: Hack, monospace; font-size: 1.5rem; }
 .violet-header-3 { color: #AE94D0; font-family: Hack, monospace; font-size: 1.5rem; }
+*/
 
 /*
 h1 { font-size: 2.5rem;}
@@ -67,6 +62,6 @@ h6 { font-size: 1.5rem;}
 .violet-header { color: #AE94D0; font-family: Hack, monospace; }
 
 /* text  */
-.subtittle   { color: #ADADAD; font-family: Hack, monospace; style="right: 100px; }
-.normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; style="right: 100px; }
-.code-block  { font-family: Hack, monospace; style="right: 100px; }
+.subtittle   { color: #ADADAD; font-family: Hack, monospace; }
+.normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
+.code-block  { font-family: Hack, monospace; }
