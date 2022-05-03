@@ -9,29 +9,21 @@ p {
 }
 
 .red-header { color: #FC9797; font-family: Hack, monospace; }
-
-.orange-header { 
-    color: #FC9797;
-    font-family: Hack, monospace;
-}
-
-.yellow-header { 
-    color: #FC9797;
-    font-family: Hack, monospace;
-}
+.orange-header { color: #FFAE80; font-family: Hack, monospace; }
+.yellow-header { color: #FBF8B1; font-family: Hack, monospace; }
 
 .green-header { 
-    color: #FC9797;
+    color: #8EFFB6;
     font-family: Hack, monospace;
 }
 
 .blue-header { 
-    color: #FC9797;
+    color: #AEFCFE;
     font-family: Hack, monospace;
 }
 
 .violet-header { 
-    color: #FC9797;
+    color: #AE94D0;
     font-family: Hack, monospace;
 }
 
@@ -40,20 +32,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.red-text {
-    color: #FC9797;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.blue-text { 
-    color: #AEFCFE;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .code-block {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-code {
     font-family: Arial, Helvetica, sans-serif;
 }
