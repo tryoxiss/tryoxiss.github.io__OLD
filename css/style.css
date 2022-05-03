@@ -6,7 +6,7 @@ p { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 /* header sizes */
 .head-1   { font-family: Hack, monospace; font-size: 2.5rem; }
 .head-2   { font-family: Hack, monospace; font-size: 2rem; }
-.head-3-6 { font-family: Hack, monospace; font-size: 1.5rem; }
+.head-3 { font-family: Hack, monospace; font-size: 1.5rem; }
 
 /* colors */
 .red    { color: #FC9797; }
