@@ -1,8 +1,3 @@
-p { 
-    color: #F5FBEF;
-    font-family: Hack, monospace;
-}
-
 .logo { 
     color: #FFC2E5;
     font-family: Hack, monospace;
@@ -10,12 +5,6 @@ p {
 
 body { 
     line-height: 1;
-}
-
-h1, h2, h3, h4, h5, h6, p { 
-    margin: 0
-    padding: 0
-    border: 0
 }
 
 /*
@@ -62,6 +51,8 @@ h6 { font-size: 1.5rem;}
 .violet-header { color: #AE94D0; font-family: Hack, monospace; }
 
 /* text  */
+p { color: #F5FBEF; font-family: Hack, monospace; }
+
 .subtittle   { color: #ADADAD; font-family: Hack, monospace; }
 .normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 .code-block  { font-family: Hack, monospace; }
