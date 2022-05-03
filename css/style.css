@@ -26,28 +26,28 @@ body {
 }
 
 /* Header 1's */
-.red-header-1    { color: #FC9797; font-family: Hack, monospace; font-size: 2.5rem; margin: 30, 50, 20, 200}
-.orange-header-1 { color: #FFAE80; font-family: Hack, monospace; font-size: 2.5rem; margin: 30, 50, 20, 200}
-.yellow-header-1 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2.5rem; margin: 30, 50, 20, 200}
-.green-header-1  { color: #8EFFB6; font-family: Hack, monospace; font-size: 2.5rem; margin: 30, 50, 20, 200}
-.blue-header-1   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2.5rem; margin: 30, 50, 20, 200}
-.violet-header-1 { color: #AE94D0; font-family: Hack, monospace; font-size: 2.5rem; margin: 30, 50, 20, 200}
+.red-header-1    { color: #FC9797; font-family: Hack, monospace; font-size: 2.5rem; margin: 30px, 50px, 20px, 200px}
+.orange-header-1 { color: #FFAE80; font-family: Hack, monospace; font-size: 2.5rem; margin: 30px, 50px, 20px, 200px}
+.yellow-header-1 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2.5rem; margin: 30px, 50px, 20px, 200px}
+.green-header-1  { color: #8EFFB6; font-family: Hack, monospace; font-size: 2.5rem; margin: 30px, 50px, 20px, 200px}
+.blue-header-1   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2.5rem; margin: 30px, 50px, 20px, 200px}
+.violet-header-1 { color: #AE94D0; font-family: Hack, monospace; font-size: 2.5rem; margin: 30px, 50px, 20px, 200}px
 
 /* header 2's */
-.red-header-2    { color: #FC9797; font-family: Hack, monospace; font-size: 2rem; margin: 30, 50, 20, 200}
-.orange-header-2 { color: #FFAE80; font-family: Hack, monospace; font-size: 2rem; margin: 30, 50, 20, 200}
-.yellow-header-2 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2rem; margin: 30, 50, 20, 200}
-.green-header-2  { color: #8EFFB6; font-family: Hack, monospace; font-size: 2rem; margin: 30, 50, 20, 200}
-.blue-header-2   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2rem; margin: 30, 50, 20, 200}
-.violet-header-2 { color: #AE94D0; font-family: Hack, monospace; font-size: 2rem; margin: 30, 50, 20, 200}
+.red-header-2    { color: #FC9797; font-family: Hack, monospace; font-size: 2rem; margin: 30px, 50px, 20px, 200px}
+.orange-header-2 { color: #FFAE80; font-family: Hack, monospace; font-size: 2rem; margin: 30px, 50px, 20px, 200px}
+.yellow-header-2 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2rem; margin: 30px, 50px, 20px, 200px}
+.green-header-2  { color: #8EFFB6; font-family: Hack, monospace; font-size: 2rem; margin: 30px, 50px, 20px, 200px}
+.blue-header-2   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2rem; margin: 30px, 50px, 20px, 200px}
+.violet-header-2 { color: #AE94D0; font-family: Hack, monospace; font-size: 2rem; margin: 30px, 50px, 20px, 200px}
 
 /* header 3+ */
-.red-header-3    { color: #FC9797; font-family: Hack, monospace; font-size: 1.5rem; margin: 30, 50, 20, 200}
-.orange-header-3 { color: #FFAE80; font-family: Hack, monospace; font-size: 1.5rem; margin: 30, 50, 20, 200}
-.yellow-header-3 { color: #FBF8B1; font-family: Hack, monospace; font-size: 1.5rem; margin: 30, 50, 20, 200}
-.green-header-3  { color: #8EFFB6; font-family: Hack, monospace; font-size: 1.5rem; margin: 30, 50, 20, 200}
-.blue-header-3   { color: #AEFCFE; font-family: Hack, monospace; font-size: 1.5rem; margin: 30, 50, 20, 200}
-.violet-header-3 { color: #AE94D0; font-family: Hack, monospace; font-size: 1.5rem; margin: 30, 50, 20, 200}
+.red-header-3    { color: #FC9797; font-family: Hack, monospace; font-size: 1.5rem; margin: 30px, 50px, 20px, 200px}
+.orange-header-3 { color: #FFAE80; font-family: Hack, monospace; font-size: 1.5rem; margin: 30px, 50px, 20px, 200px}
+.yellow-header-3 { color: #FBF8B1; font-family: Hack, monospace; font-size: 1.5rem; margin: 30px, 50px, 20px, 200px}
+.green-header-3  { color: #8EFFB6; font-family: Hack, monospace; font-size: 1.5rem; margin: 30px, 50px, 20px, 200px}
+.blue-header-3   { color: #AEFCFE; font-family: Hack, monospace; font-size: 1.5rem; margin: 30px, 50px, 20px, 200px}
+.violet-header-3 { color: #AE94D0; font-family: Hack, monospace; font-size: 1.5rem; margin: 30px, 50px, 20px, 200px}
 
 /*
 h1 { font-size: 2.5rem;}
