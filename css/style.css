@@ -3,6 +3,11 @@ h2 {
     font-family: Hack, monospace;
 }
 
+p { 
+    color: #F5FBEF;
+    font-family: Hack, monospace;
+}
+
 .red-header { 
     color: #FC9797;
     font-family: Hack, monospace;
