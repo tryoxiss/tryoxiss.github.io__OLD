@@ -1,6 +1,11 @@
-.red-text {
+.red-header { 
     color: #FC9797;
     font-family: Hack, monospace;
+}
+
+.red-text {
+    color: #FC9797;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 .blue-text { 
