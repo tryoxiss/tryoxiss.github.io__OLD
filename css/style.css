@@ -1,9 +1,17 @@
 .red-text {
     color: #FC9797;
-    font-family: "hack", "Lucida Console", "monospace";
+    font-family: Hack, monospace;
   }
 
 .blue-text { 
     color: #AEFCFE;
-    font-family: "hack", "Lucida Console", "monospace";
+    font-family: Hack, monospace;
+}
+
+.code-block {
+    font-family: Hack, monospace;
+}
+
+code {
+    font-family: Hack, monospace;
 }
