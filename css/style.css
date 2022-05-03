@@ -1,54 +1,25 @@
-.logo { 
-    color: #FFC2E5;
-    font-family: Hack, monospace;
-}
-
-/*
-/ h1's /
-.red-header-1    { color: #FC9797; font-family: Hack, monospace; font-size: 2.5rem; }
-.orange-header-1 { color: #FFAE80; font-family: Hack, monospace; font-size: 2.5rem; }
-.yellow-header-1 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2.5rem; }
-.green-header-1  { color: #8EFFB6; font-family: Hack, monospace; font-size: 2.5rem; }
-.blue-header-1   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2.5rem; }
-.violet-header-1 { color: #AE94D0; font-family: Hack, monospace; font-size: 2.5rem; }
-
-/ h2's /
-.red-header-2    { color: #FC9797; font-family: Hack, monospace; font-size: 2rem; }
-.orange-header-2 { color: #FFAE80; font-family: Hack, monospace; font-size: 2rem; }
-.yellow-header-2 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2rem; }
-.green-header-2  { color: #8EFFB6; font-family: Hack, monospace; font-size: 2rem; }
-.blue-header-2   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2rem; }
-.violet-header-2 { color: #AE94D0; font-family: Hack, monospace; font-size: 2rem; }
-
-/ h3's /
-.red-header-3    { color: #FC9797; font-family: Hack, monospace; font-size: 1.5rem; }
-.orange-header-3 { color: #FFAE80; font-family: Hack, monospace; font-size: 1.5rem; }
-.yellow-header-3 { color: #FBF8B1; font-family: Hack, monospace; font-size: 1.5rem; }
-.green-header-3  { color: #8EFFB6; font-family: Hack, monospace; font-size: 1.5rem; }
-.blue-header-3   { color: #AEFCFE; font-family: Hack, monospace; font-size: 1.5rem; }
-.violet-header-3 { color: #AE94D0; font-family: Hack, monospace; font-size: 1.5rem; }
-*/
+/* HTML Objects */
+p { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 
 /* header sizes */
-.size-1 { font-size: 2.5rem;}
-.size-2 { font-size: 2rem;  }
-.size-3 { font-size: 1.5rem;}
-/*.h4 { font-size: 1.5rem;}
-.h5 { font-size: 1.5rem;}
-.h6 { font-size: 1.5rem;}*/
+.head-1   { font-size: 2.5rem; font-family: Hack, monospace; }
+.head-2   { font-size: 2rem;   font-family: Hack, monospace; }
+.head-3-6 { font-size: 1.5rem; font-family: Hack, monospace; }
 
-
-/* colored headers */
-.red-header    { color: #FC9797; font-family: Hack, monospace; }
-.orange-header { color: #FFAE80; font-family: Hack, monospace; }
-.yellow-header { color: #FBF8B1; font-family: Hack, monospace; }
-.green-header  { color: #8EFFB6; font-family: Hack, monospace; }
-.blue-header   { color: #AEFCFE; font-family: Hack, monospace; }
-.violet-header { color: #AE94D0; font-family: Hack, monospace; }
+/* colors */
+.red    { color: #FC9797; }
+.orange { color: #FFAE80; }
+.yellow { color: #FBF8B1; }
+.green  { color: #8EFFB6; }
+.blue   { color: #AEFCFE; }
+.violet { color: #AE94D0; }
+.pink   { color: #FFC2E5; }
+.black  { color: #181B25; } /* backround */
+.grey   { color: #ADADAD; } /* for date/time of posts and subtittles */
+.white  { color: #F5FBEF; } /* for paragraph text. */
 
 /* text  */
-p { color: #F5FBEF; font-family: Hack, monospace; }
-
 .subtittle   { color: #ADADAD; font-family: Hack, monospace; }
 .normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 .code-block  { font-family: Hack, monospace; }
+.logo { color: #FFC2E5; font-family: Hack, monospace; }
