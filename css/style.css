@@ -5,7 +5,7 @@ p {
 
 body {
     background-color: #181B25;
-    margin: auto;
+    margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F5FBEF;
   }
@@ -25,7 +25,7 @@ body {
     font-family: Hack, monospace;
 }
 
-/* headers */
+/* colored headers */
 .red-header { color: #FC9797; font-family: Hack, monospace; }
 .orange-header { color: #FFAE80; font-family: Hack, monospace; }
 .yellow-header { color: #FBF8B1; font-family: Hack, monospace; }
