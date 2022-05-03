@@ -8,7 +8,37 @@ p {
     font-family: Hack, monospace;
 }
 
+.logo { 
+    color: #FFC2E5;
+    font-family: Hack, monospace;
+}
+
 .red-header { 
+    color: #FC9797;
+    font-family: Hack, monospace;
+}
+
+.orange-header { 
+    color: #FC9797;
+    font-family: Hack, monospace;
+}
+
+.yellow-header { 
+    color: #FC9797;
+    font-family: Hack, monospace;
+}
+
+.green-header { 
+    color: #FC9797;
+    font-family: Hack, monospace;
+}
+
+.blue-header { 
+    color: #FC9797;
+    font-family: Hack, monospace;
+}
+
+.violet-header { 
     color: #FC9797;
     font-family: Hack, monospace;
 }
