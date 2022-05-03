@@ -43,6 +43,11 @@ p {
     font-family: Hack, monospace;
 }
 
+.normal-text { 
+    color: #F5FBEF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .red-text {
     color: #FC9797;
     font-family: Arial, Helvetica, sans-serif;
