@@ -8,10 +8,7 @@ p {
     font-family: Hack, monospace;
 }
 
-.red-header { 
-    color: #FC9797;
-    font-family: Hack, monospace;
-}
+.red-header { color: #FC9797; font-family: Hack, monospace; }
 
 .orange-header { 
     color: #FC9797;
