@@ -3,12 +3,8 @@
     font-family: Hack, monospace;
 }
 
-body { 
-    line-height: 1;
-}
-
 /*
-h1's
+/ h1's /
 .red-header-1    { color: #FC9797; font-family: Hack, monospace; font-size: 2.5rem; }
 .orange-header-1 { color: #FFAE80; font-family: Hack, monospace; font-size: 2.5rem; }
 .yellow-header-1 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2.5rem; }
@@ -16,7 +12,7 @@ h1's
 .blue-header-1   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2.5rem; }
 .violet-header-1 { color: #AE94D0; font-family: Hack, monospace; font-size: 2.5rem; }
 
-h2's
+/ h2's /
 .red-header-2    { color: #FC9797; font-family: Hack, monospace; font-size: 2rem; }
 .orange-header-2 { color: #FFAE80; font-family: Hack, monospace; font-size: 2rem; }
 .yellow-header-2 { color: #FBF8B1; font-family: Hack, monospace; font-size: 2rem; }
@@ -24,7 +20,7 @@ h2's
 .blue-header-2   { color: #AEFCFE; font-family: Hack, monospace; font-size: 2rem; }
 .violet-header-2 { color: #AE94D0; font-family: Hack, monospace; font-size: 2rem; }
 
-h3's
+/ h3's /
 .red-header-3    { color: #FC9797; font-family: Hack, monospace; font-size: 1.5rem; }
 .orange-header-3 { color: #FFAE80; font-family: Hack, monospace; font-size: 1.5rem; }
 .yellow-header-3 { color: #FBF8B1; font-family: Hack, monospace; font-size: 1.5rem; }
@@ -34,12 +30,13 @@ h3's
 */
 
 /* header sizes */
-h1 { font-size: 2.5rem;}
-h2 { font-size: 2rem;  }
-h3 { font-size: 1.5rem;}
-h4 { font-size: 1.5rem;}
-h5 { font-size: 1.5rem;}
-h6 { font-size: 1.5rem;}
+.size-1 { font-size: 2.5rem;}
+.size-2 { font-size: 2rem;  }
+.size-3 { font-size: 1.5rem;}
+/*.h4 { font-size: 1.5rem;}
+.h5 { font-size: 1.5rem;}
+.h6 { font-size: 1.5rem;}*/
+
 
 /* colored headers */
 .red-header    { color: #FC9797; font-family: Hack, monospace; }
