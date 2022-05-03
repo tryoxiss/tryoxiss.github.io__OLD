@@ -3,6 +3,23 @@ p {
     font-family: Hack, monospace;
 }
 
+body {
+    background-color: #181B25;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F5FBEF;
+  }
+  
+  #navbar {
+    width: 100%;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+  }
+
 .logo { 
     color: #FFC2E5;
     font-family: Hack, monospace;
