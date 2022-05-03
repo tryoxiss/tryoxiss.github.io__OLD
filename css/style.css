@@ -1,4 +1,3 @@
-p { 
-    color: red; 
-    font-family: serif;
-}
+.red-text {
+    color: red;
+  }
