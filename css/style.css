@@ -36,7 +36,7 @@ button:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    border-radius: 2px;
+    border-radius: 3px;
     font-family: Hack, monospace;
     width: 100%
 }
