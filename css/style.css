@@ -4,6 +4,10 @@ p {
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+body { 
+    color: #181B25; 
+}
+
 .logo { 
     float: left;
     color: #FFC2E5; 
@@ -55,6 +59,12 @@ body {
 .content {
     width: 70%;
     float: left; 
+}
+
+.container { 
+    padding-top: 0px; 
+    padding-left: 0rem; 
+    padding-right: 0px; 
 }
 
 .sidebar { 
