@@ -13,6 +13,16 @@ body {
     color: #181B25; 
 }
 
+a { 
+    color: #AEFCFE; 
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #AEFCFE; 
+    text-decoration: underline;
+}
+
 .logo { 
     float: left;
     color: #FFC2E5; 
@@ -74,6 +84,8 @@ body {
     width: 20%;
     float: right; 
 }
+
+
 
 /*
 .footer { 
