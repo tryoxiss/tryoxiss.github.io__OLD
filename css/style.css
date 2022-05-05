@@ -4,6 +4,10 @@ p {
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+abbr { 
+    color: #AEFCFE;
+}
+
 body { 
     color: #181B25; 
 }
