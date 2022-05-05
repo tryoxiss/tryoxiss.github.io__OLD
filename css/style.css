@@ -13,20 +13,6 @@ body {
     color: #181B25; 
 }
 
-button {
-    background-color: #181B25; /* Green */
-    border: 2px solid #fc9797;
-    color: #fc9797;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    border-radius: 2px;
-    font-family: Hack, monospace;
-    width: 100%
-}
-
 button:hover {
     background-color: #fc9797; /* Green */
     border: 2px solid #fc9797;
@@ -37,6 +23,20 @@ button:hover {
     display: inline-block;
     font-size: 1rem;
     border-radius: 3px;
+    font-family: Hack, monospace;
+    width: 100%
+}
+
+button {
+    background-color: #181B25; /* Green */
+    border: 2px solid #fc9797;
+    color: #fc9797;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 2px;
     font-family: Hack, monospace;
     width: 100%
 }
