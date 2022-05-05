@@ -13,15 +13,37 @@ body {
     color: #181B25; 
 }
 
-a { 
-    color: #AEFCFE; 
+button {
+    background-color: #181B25; /* Green */
+    border: 2px solid #fc9797;
+    color: #fc9797;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 2px;
+    font-family: Hack, monospace;
+    width: 100%
 }
 
-a:hover { 
-    color: #AEFCFE; 
-    text-decoration: underline;
+button:hover {
+    background-color: #fc9797; /* Green */
+    border: 2px solid #fc9797;
+    color: #181B25;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 2px;
+    font-family: Hack, monospace;
+    width: 100%
 }
+
+p a { color: #AEFCFE; text-decoration: none; }
+nav a:hover { color: #F5FBEF; text-decoration: bold; }
+p a:hover { color: #AEFCFE; text-decoration: underline; }
 
 .logo { 
     float: left;
@@ -31,7 +53,6 @@ a:hover {
     height: 3rem;
     padding: 5px; 
     text-decoration: none;
-
 }
 .logo:hover { color: #F5FBEF; }
 
@@ -83,6 +104,13 @@ body {
 .sidebar { 
     width: 20%;
     float: right; 
+}
+
+.box50 { 
+    display: inline-block; 
+    height: auto; 
+    width: 300px; 
+    margin: 1.5rem;
 }
 
 
