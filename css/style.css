@@ -5,7 +5,7 @@ p {
 }
 
 abbr { 
-    color: #AEFCFE;
+    color: #FFC2E5;
 }
 
 body { 
@@ -35,8 +35,6 @@ header {
     padding-bottom: 10px;
     margin-bottom: 0px;
 }
-
-
 
 nav           { float: right }
 header::after { content: ''; display: table; clear: both; }
