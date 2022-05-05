@@ -6,6 +6,7 @@ p {
 
 abbr { 
     color: #FFC2E5;
+    text-decoration: none;
 }
 
 body { 
@@ -83,6 +84,8 @@ body {
     position: left; 
 }
 */
+
+
 
 /* header sizes */
 .size-1 { font-family: Hack, monospace; font-size: 2.5rem; }
