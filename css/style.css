@@ -186,4 +186,4 @@ body {
 .subtittle   { color: #ADADAD; font-family: Hack, monospace; }
 .normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 .code-block  { font-family: Hack, monospace; }
-.btn-warning { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; }
+.warning { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; }
