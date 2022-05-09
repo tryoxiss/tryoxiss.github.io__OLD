@@ -39,7 +39,7 @@ button {
     font-size: 1rem;
     border-radius: 2px;
     font-family: Hack, monospace;
-    width: 100%
+    width: 80%;
 }
 
 /* colors */
@@ -118,7 +118,7 @@ nav li        {
 
 
 body { 
-    padding: 7rem; 
+    padding: 10%; 
     padding-top: 0px;
     margin-top: 0px;
     color: #181B25; 
