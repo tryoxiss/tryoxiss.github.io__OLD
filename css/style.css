@@ -2,7 +2,6 @@
 p { 
     color: #F5FBEF; 
     font-family: Arial, Helvetica, sans-serif; 
-    /*margin-top: 0px; LOWER the margin top but to what, idk. */
 }
 
 abbr { 
@@ -68,9 +67,6 @@ button {
 
 .btn-violet { background-color: #181B25; border: 2px solid #AE94D0; color: #AE94D0; }
 .btn-violet:hover { background-color: #AE94D0; border: 2px solid #AE94D0; color: #181B25; }
-
-.btn-pink { background-color: #181B25; border: 2px solid #FFC2E5; color: #FFC2E5; }
-.btn-pink:hover { background-color: #FFC2E5; border: 2px solid #FFC2E5; color: #181B25; }
 
 body { background-color: #181B25; }
 
@@ -166,53 +162,12 @@ body {
 }
 */
 
-/* FORM CLASSES */
 
-.form-
-
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none; 
-    border-bottom: #AE94D0; 
-    box-sizing: border-box;
-
-}
-
-input[type=text]:foucus {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-
-/* input[type=text] {
-  border: none;
-  border-bottom: 2px solid red;
-} */
-
-input[type=submit] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: #181B25; 
-    border: 2px solid #AE94D0; 
-    color: #AE94D0;
-    font-family: Hack, monospace; 
-}
-
-/*
-input[type=submit] { background-color: #181B25; border: 2px solid #AE94D0; color: #AE94D0; }
-input[type=submit]:hover { background-color: #AE94D0; border: 2px solid #AE94D0; color: #181B25; }
-input[type=submit]:foucus { background-color: #AE94D0; border: 2px solid #AE94D0; color: #181B25; }
-*/
 
 /* header sizes */
-.size-1 { font-family: Hack, monospace; font-size: 2.5rem; margin-bottom: 0px; }
-.size-2 { font-family: Hack, monospace; font-size: 2rem;   margin-bottom: 0px; } 
-.size-3 { font-family: Hack, monospace; font-size: 1.5rem; margin-bottom: 0px; }
+.size-1 { font-family: Hack, monospace; font-size: 2.5rem; }
+.size-2 { font-family: Hack, monospace; font-size: 2rem;   } /* ISSUE WITH THIS ONE */
+.size-3 { font-family: Hack, monospace; font-size: 1.5rem; }
 
 /* colors */
 .red    { color: #FC9797; }
@@ -231,4 +186,4 @@ input[type=submit]:foucus { background-color: #AE94D0; border: 2px solid #AE94D0
 .subtittle   { color: #ADADAD; font-family: Hack, monospace; }
 .normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 .code-block  { font-family: Hack, monospace; }
-.warning { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; padding-bottom: .5rem; }
+.warning { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; }
