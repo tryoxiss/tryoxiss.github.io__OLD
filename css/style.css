@@ -27,6 +27,8 @@ button:hover {
     width: 100%
 }
 
+/* bug comments because git seems to break sometimes and commiting again fixes it. */
+
 button {
     background-color: #181B25; /* Green */
     border: 2px solid #fc9797;
@@ -73,7 +75,7 @@ body { background-color: #181B25; }
 p a { color: #AEFCFE; text-decoration: none; }
 nav a:hover { color: #F5FBEF; text-decoration: bold; }
 p a:hover { color: #AEFCFE; text-decoration: underline; }
-
+/* bug comments because git seems to break sometimes and commiting again fixes it. */
 .logo { 
     float: left;
     color: #FFC2E5; 
@@ -91,7 +93,7 @@ p a:hover { color: #AEFCFE; text-decoration: underline; }
 	position: sticky;
 	top: 0;
 }
-
+/* bug comments because git seems to break sometimes and commiting again fixes it. */
 header {
     color: #181B25;
     padding-bottom: 10px;
@@ -112,7 +114,7 @@ header {
     padding-bottom: 0px; 
     border-radius: 5px;
 }
-
+/* bug comments because git seems to break sometimes and commiting again fixes it. */
 .alert { 
     height: auto; 
     width: 90%;
@@ -121,11 +123,11 @@ header {
     border-width: 1px;
     /*background-color: #310000;*/
     outline-width: 1px;
-    padding: 5%; 
+    padding: 5%; /* bug comments because git seems to break sometimes and commiting again fixes it. */
     padding-top: 0px; 
     padding-bottom: 0px; 
     border-radius: 5px;
-}
+}/* bug comments because git seems to break sometimes and commiting again fixes it. */
 
 .info { 
     height: auto; 
@@ -135,12 +137,12 @@ header {
     border-width: 1px;
     /*background-color: #310000;*/
     outline-width: 1px;
-    padding: 5%; 
+    padding: 5%; /* bug comments because git seems to break sometimes and commiting again fixes it. */
     padding-top: 0px; 
     padding-bottom: 0px; 
     border-radius: 5px;
 }
-
+/* bug comments because git seems to break sometimes and commiting again fixes it. */
 nav           { float: right }
 header::after { content: ''; display: table; clear: both; }
 nav ul        { margin: 0; padding: 0; list-style: none; }
@@ -238,4 +240,4 @@ body {
 .subtittle   { color: #ADADAD; font-family: Hack, monospace; }
 .normal-text { color: #F5FBEF; font-family: Arial, Helvetica, sans-serif; }
 .code-block  { font-family: Hack, monospace; }
-.addinfo { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; }
+.addinfo { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; }/* bug comments because git seems to break sometimes and commiting again fixes it. */
