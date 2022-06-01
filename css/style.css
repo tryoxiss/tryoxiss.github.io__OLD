@@ -8,13 +8,13 @@
     --violet: #AE94D0; 
     --pink: #FFC2E5;
 
-    --dark-red: #cda4a4; 
-    --dark-orange: #cfae9a;
-    --dark-yellow: #cdccaf;
-    --dark-green: #a0cfb1;
-    --dark-blue: #aecdce;
-    --dark-violet: #aea2bc;
-    --dark-pink: #cfb6c4;
+    --dark-red: #FA6161; 
+    --dark-orange: #FF8B47;
+    --dark-yellow: #F6F051;
+    --dark-green: #1FFF6D;
+    --dark-blue: #5DF8FD;
+    --dark-violet: #9471C1;
+    --dark-pink: #FF99D3;
 
     --black: #181B25; /* backround */
     --black-red: #24222b;
@@ -35,7 +35,6 @@
     --white-pink: #fcd7e8; */
 
     --grey:  #ADADAD; /* for date/time of posts and subtittles. */
-
 }
 
 .hack { font-family: Hack, monospace; }
