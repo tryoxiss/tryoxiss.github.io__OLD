@@ -1,22 +1,64 @@
+
+:root { 
+    --red: #FC9797;
+    --orange: #FFAE80;
+    --yellow: #FBF8B1; 
+    --green: #8EFFB6;
+    --blue: #AEFCFE;
+    --violet: #AE94D0; 
+    --pink: #FFC2E5;
+
+    --dark-red: #cda4a4; 
+    --dark-orange: #cfae9a;
+    --dark-yellow: #cdccaf;
+    --dark-green: #a0cfb1;
+    --dark-blue: #aecdce;
+    --dark-violet: #aea2bc;
+    --dark-pink: #cfb6c4;
+
+    --black: #181B25; /* backround */
+    --black-red: #24222b;
+    --black-orange: #24232a;
+    --black-yellow: #24272d;
+    --black-green: #1f272d;
+    --black-blue: #202731;
+    --black-violet: #20222e;
+    --black-pink: #24242f;
+
+    --white: #F5FBEF; /* paragraph text */
+    /* --white-red: #fabcb7;
+    --white-orange: #fccaa9;
+    --white-yellow: #f9f9c8;
+    --white-green: #b4fecb;
+    --white-blue: #c8fcf9;
+    --white-violet: #c8badb;
+    --white-pink: #fcd7e8; */
+
+    --grey:  #ADADAD; /* for date/time of posts and subtittles. */
+
+}
+
+.hack { font-family: Hack, monospace; }
+
 /* elements */ 
 p { 
-    color: #F5FBEF; 
+    color: var(--white); 
     font-family: Arial, Helvetica, sans-serif; 
 }
 
-abbr { 
-    color: #FFC2E5;
+/* abbr { 
+    color: ;
     text-decoration: none;
-}
+} */
 
 body { 
-    color: #181B25; 
+    color: var(--black); 
 }
 
 button:hover {
-    background-color: #fc9797; /* Green */
-    border: 2px solid #fc9797;
-    color: #181B25;
+    background-color: var(--white); 
+    border: 2px solid var(--white);
+    color: var(--black);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -27,12 +69,10 @@ button:hover {
     width: 100%
 }
 
-/* bug comments because git seems to break sometimes and commiting again fixes it. */
-
 button {
-    background-color: #181B25; /* Green */
-    border: 2px solid #fc9797;
-    color: #fc9797;
+    background-color: var(--black); /* Green */
+    border: 2px solid var(--white);
+    color: var(--white);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -43,46 +83,50 @@ button {
     width: 100%;
 }
 
+.hack { font-family: Hack, monospace; }
+
 /* colors */
-.red    { color: #FC9797; }
-.orange { color: #FFAE80; }
-.yellow { color: #FBF8B1; }
-.green  { color: #8EFFB6; }
-.blue   { color: #AEFCFE; }
-.violet { color: #AE94D0; }
-.pink   { color: #FFC2E5; }
+.red    { color: var(--red);    }
+.orange { color: var(--orange); }
+.yellow { color: var(--yellow); }
+.green  { color: var(--green);  }
+.blue   { color: var(--blue);   }
+.violet { color: var(--violet); }
+.pink   { color: var(--pink);   }
 
-.btn-red { background-color: #181B25; border: 2px solid #fc9797; color: #fc9797; }
-.btn-red:hover { background-color: #fc9797; border: 2px solid #fc9797; color: #181B25; }
+.btn-red { background-color: var(--black); border: 2px solid var(--red); color: var(--red); }
+.btn-red:hover { background-color: var(--red); border: 2px solid var(--red); color: var(--black); }
 
-.btn-orange { background-color: #181B25; border: 2px solid #FFAE80; color: #FFAE80; }
-.btn-orange:hover { background-color: #FFAE80; border: 2px solid #FFAE80; color: #181B25; }
+.btn-orange { background-color: var(--black); border: 2px solid var(--orange); color: var(--orange); }
+.btn-orange:hover { background-color: var(--orange); border: 2px solid var(--orange); color: var(--black); }
 
-.btn-yellow { background-color: #181B25; border: 2px solid #FBF8B1; color: #FBF8B1; }
-.btn-yellow:hover { background-color: #FBF8B1; border: 2px solid #FBF8B1; color: #181B25; }
+.btn-yellow { background-color: var(--black); border: 2px solid var(--yellow); color: var(--yellow); }
+.btn-yellow:hover { background-color: var(--yellow); border: 2px solid var(--yellow); color: var(--black); }
 
-.btn-green { background-color: #181B25; border: 2px solid #8EFFB6; color: #8EFFB6; }
-.btn-green:hover { background-color: #8EFFB6; border: 2px solid #8EFFB6; color: #181B25; }
+.btn-green { background-color: var(--black); border: 2px solid var(--green); color: var(--green); }
+.btn-green:hover { background-color: var(--green); border: 2px solid var(--green); color: var(--black); }
 
-.btn-blue { background-color: #181B25; border: 2px solid #AEFCFE;color: #AEFCFE; }
-.btn-blue:hover { background-color: #AEFCFE; border: 2px solid #AEFCFE;color: #181B25; }
+.btn-blue { background-color: var(--black); border: 2px solid var(--blue);color: var(--blue); }
+.btn-blue:hover { background-color: var(--blue); border: 2px solid var(--blue);color: var(--black); }
 
-.btn-violet { background-color: #181B25; border: 2px solid #AE94D0; color: #AE94D0; }
-.btn-violet:hover { background-color: #AE94D0; border: 2px solid #AE94D0; color: #181B25; }
+.btn-violet { background-color: var(--black); border: 2px solid var(--violet); color: var(--violet); }
+.btn-violet:hover { background-color: var(--violet); border: 2px solid var(--violet); color: var(--black); }
 
-body { background-color: #181B25; }
+body { background-color: var(--black); }
 
-p a { color: #AEFCFE; text-decoration: none; }
-nav a:hover { color: #F5FBEF; text-decoration: bold; }
-p a:hover { color: #AEFCFE; text-decoration: underline; }
-/* bug comments because git seems to break sometimes and commiting again fixes it. */
+p a { color: var(--blue); text-decoration: none; }
+nav a:hover { color: var(--white); text-decoration: bold; }
+p a:hover { color: var(--blue); text-decoration: underline; }
+
+body { 
+    background-color: var(--black);
+}
+
 .logo { 
     float: left;
-    color: #FFC2E5; 
+    color: var(--pink); 
     font-family: Hack, monospace; 
-    font-size: 2rem;
-    height: 3rem;
-    padding: 5px; 
+    /* padding: 5px;   */
     text-decoration: none;
 }
 
@@ -93,7 +137,7 @@ p a:hover { color: #AEFCFE; text-decoration: underline; }
 	position: sticky;
 	top: 0;
 }
-/* bug comments because git seems to break sometimes and commiting again fixes it. */
+
 header {
     color: #181B25;
     padding-bottom: 10px;
@@ -107,42 +151,136 @@ header {
     float: middle; 
     border: #FC9797 solid; 
     border-width: 1px;
-    /*background-color: #310000;*/
+    background-color: var(--black-red);
     outline-width: 1px;
     padding: 5%; 
     padding-top: 0px; 
     padding-bottom: 0px; 
     border-radius: 5px;
 }
-/* bug comments because git seems to break sometimes and commiting again fixes it. */
+
 .alert { 
     height: auto; 
     width: 90%;
     float: middle; 
     border: #FBF8B1 solid; 
     border-width: 1px;
-    /*background-color: #310000;*/
+    background-color: var(--black-yellow);
     outline-width: 1px;
-    padding: 5%; /* bug comments because git seems to break sometimes and commiting again fixes it. */
+    padding: 5%; 
     padding-top: 0px; 
     padding-bottom: 0px; 
     border-radius: 5px;
-}/* bug comments because git seems to break sometimes and commiting again fixes it. */
+} 
 
 .info { 
     height: auto; 
     width: 90%;
     float: middle; 
-    border: #AEFCFE solid; 
+    border: var(--blue) solid; 
     border-width: 1px;
-    /*background-color: #310000;*/
+    background-color: var(--black-blue);
     outline-width: 1px;
-    padding: 5%; /* bug comments because git seems to break sometimes and commiting again fixes it. */
+    padding: 5%; 
     padding-top: 0px; 
     padding-bottom: 0px; 
     border-radius: 5px;
 }
-/* bug comments because git seems to break sometimes and commiting again fixes it. */
+
+.colorcat { 
+    display: grid;
+    height: auto; 
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    /* grid-template-rows: 12rem 5.5rem 5.5rem; */
+    /* width: 80%; */
+    height:13rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.color-holder {
+    height: 13rem; 
+    margin: 0px; 
+    padding: 0px; 
+
+} 
+
+.main-color {
+    float: left; 
+    height: 13.2rem; 
+    width: 44%;
+    border-width: 1px;
+    background-color: var(--white);
+    padding: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+
+.extra-color {
+    float: right; 
+    height: 4rem; 
+    width: 43%;
+    border-width: 1px;
+    border: var(--black) solid; 
+    border-width: 1px;
+    background-color: var(--white);
+    padding: 5%;
+    padding-top: 0px;
+    padding-left: 1rem;
+    padding-right: 0px;
+    padding-bottom: 2.35rem;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+/* .seccondary-color {
+    float: left; 
+    height: 7rem; 
+    width: 49%;
+    border-width: 1px;
+    background-color: var(--white);
+    padding: 5%;
+    margin-top: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+} */
+
+/* .main-color  { 
+    flex-grow: 4;
+    flex-shrink: 1;
+} 
+
+.deriv-color { 
+    flex-shrink: 0; 
+} */
+
+.colorbox { 
+    height: 12rem; 
+    width: auto;
+    /* float: middle; */
+    border: var(--black) solid; 
+    border-width: 1px;
+    outline-width: 1px;
+    background-color: var(--white);
+    padding: 5%; 
+    margin: 1px;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+
+.col1 { grid-column: 1; float: left;  width: 33%}
+.col2 { grid-column: 2; float: middle; width: 30%}
+.col3 { grid-column: 3; float: left; width: 30%}
+.row1 { grid-row: 1; width: 40% } 
+.row2 { grid-row: 2; width: 30% }
+.row3 { grid-row: 3; width: 30% } 
+
 nav           { float: right }
 header::after { content: ''; display: table; clear: both; }
 nav ul        { margin: 0; padding: 0; list-style: none; }
@@ -189,6 +327,13 @@ body {
     float: right; 
 }
 
+.box33 { 
+    display: grid;
+    height: auto; 
+    width: 33%; 
+    margin: 1.5rem; 
+}
+
 .box50 { 
     display: inline-block; 
     height: auto; 
@@ -203,8 +348,6 @@ body {
     margin: 1.5rem;
 }
 
-
-
 /*
 .footer { 
     font-family: Arial, Helvetica, sans-serif; 
@@ -215,22 +358,25 @@ body {
 }
 */
 
-
-
 /* header sizes */
+/* .important { font-family: Hack, monospace; } */
+
 .size-1 { font-family: Hack, monospace; font-size: 2.5rem; }
 .size-2 { font-family: Hack, monospace; font-size: 2rem;   } /* ISSUE WITH THIS ONE */
 .size-3 { font-family: Hack, monospace; font-size: 1.5rem; }
 .size-4 { font-family: Arial, Helvetica, sans-serif; font-size: 1.1rem; }
 
+.topbound { padding: 0px; margin: 0px; margin-top: 10px;}
+/* .sink-left { position: absolute; bottom: 5px; left: 5px; } */
+
 /* colors */
-.red    { color: #FC9797; }
-.orange { color: #FFAE80; }
-.yellow { color: #FBF8B1; }
-.green  { color: #8EFFB6; }
-.blue   { color: #AEFCFE; }
-.violet { color: #AE94D0; }
-.pink   { color: #FFC2E5; }
+.red    { color: var(--red);    }
+.orange { color: var(--orange); }
+.yellow { color: var(--yellow); }
+.green  { color: var(--green);  }
+.blue   { color: var(--blue);   }
+.violet { color: var(--violet); }
+.pink   { color: var(--pink);   }
 
 .black  { color: #181B25; } /* backround */
 .grey   { color: #ADADAD; } /* for date/time of posts and subtittles */
