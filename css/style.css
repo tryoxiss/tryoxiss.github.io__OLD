@@ -20,7 +20,7 @@
     --dark-violet: #9471C1;
     --dark-pink: #FF99D3;
 
-    --black: #181B25; /* backround */
+    --black: #181B25; /* backround for info boxes*/
     --black-red: #24222b;
     --black-orange: #24232a;
     --black-yellow: #24272d;
@@ -30,105 +30,40 @@
     --black-pink: #24242f;
 
     --white: #F5FBEF; /* paragraph text */
-    --grey:  #ADADAD; 
+    --grey:  #C2C2C2; 
+
+    /* UNUSED (LEGACY) : --deep-grey: #ADADAD; */
 
     --monospace: Hack, monospace; 
     --normal: Arial, Helvetica, sans-serif
 }
 
-.hack { font-family: Hack, monospace; }
+/*==============
+ BASIC ELEMNTS
+==============*/
 
-/* elements */ 
-p { 
-    color: var(--white); 
-    font-family: Arial, Helvetica, sans-serif; 
-}
+body      { padding: 10%; padding-top: 0px; margin-top: 0px; background-color: #181B25; }
+p         { color: var(--white); font-family: Arial, Helvetica, sans-serif; }
+p a       { color: var(--blue); text-decoration: none; }
+p a:hover { color: var(--blue); text-decoration: underline; }
+/* abbr   { color: ;text-decoration: ;  */
+ul        { list-style: disc; }
+li        { font-family: Arial, Helvetica, sans-serif; color: #F5FBEF; } 
 
-/* abbr { 
-    color: ;
-    text-decoration: none;
-} */
+h1 { font-family: Hack, monospace; color: var(--white); font-size: 2.5rem; }
+h2 { font-family: Hack, monospace; color: var(--white); font-size: 2rem;   }  
+h3 { font-family: Hack, monospace; color: var(--white); font-size: 1.5rem; }
+h4 { font-family: Hack, monospace; color: var(--white); font-size: 1.5rem; }
+h5 { font-family: Hack, monospace; color: var(--white); font-size: 1.5rem; }
+h6 { font-family: Hack, monospace; color: var(--white);font-size: 1.5rem;  }
 
-body { 
-    color: var(--black); 
-}
+.size-1 { font-family: Hack, monospace; font-size: 2.5rem; }
+.size-2 { font-family: Hack, monospace; font-size: 2rem;   } 
+.size-3 { font-family: Hack, monospace; font-size: 1.5rem; }
+.size-4 { font-family: Arial, Helvetica, sans-serif; font-size: 1.1rem; }
+.size-5 { font-family: Arial, Helvetica, sans-serif; font-size: 1rem; }
+.size-6 { color: var(--grey); font-size: 0.75rem; font-family: Hack, monospace; }
 
-button:hover {
-    background-color: var(--white); 
-    border: 2px solid var(--white);
-    color: var(--black);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    border-radius: 3px;
-    font-family: Hack, monospace;
-    width: 100%
-}
-
-button {
-    background-color: var(--black); /* Green */
-    border: 2px solid var(--white);
-    color: var(--white);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    border-radius: 2px;
-    font-family: Hack, monospace;
-    width: 100%;
-}
-
-footer { 
-    width: 100%; 
-    float: left; 
-}
-
-footer ul li a {
-    display: inline-block;
-    font-family: Hack, monospace;
-    margin-top: .5rem;
-    float: none; 
-    list-style: none;
-    color: var(--blue)
-}
-
-footer ul li a b { color: var(--white) }
-footer ul li a b:hover { text-decoration: underline; }
-
-footer a {
-    text-decoration: none;
-    margin-right: 1rem;
-}
-
-footer li a:hover {
-    text-decoration: underline; 
-}
-
-footer li {
-    list-style: none;
-}
-
-nav           { float: right }
-header::after { content: ''; display: table; clear: both; }
-nav ul        { margin: 0; padding: 0; list-style: none; }
-nav a         { color: var(--blue); text-decoration: none; text-transform: lowercase; } /*color per link */
-nav a:hover   { color: var(--white); text-decoration: bold; }
-
-nav li        { 
-    display: inline-block; 
-    margin-left: 70px; 
-    padding-left: 70px; 
-    padding-top: 30px; 
-    font-family: Hack, monospace; 
-}
-
-
-.hack { font-family: Hack, monospace; }
-
-/* colors */
 .red    { color: var(--red);    }
 .orange { color: var(--orange); }
 .yellow { color: var(--yellow); }
@@ -137,49 +72,101 @@ nav li        {
 .violet { color: var(--violet); }
 .pink   { color: var(--pink);   }
 
-.btn-red { background-color: var(--black); border: 2px solid var(--red); color: var(--red); }
-.btn-red:hover { background-color: var(--red); border: 2px solid var(--red); color: var(--black); }
+.black  { color: var(--black); } /* backround */
+.grey   { color: var(--grey);  } /* for date/time of posts and subtittles */
+.white  { color: var(--white); } /* for paragraph text. */
 
-.btn-orange { background-color: var(--black); border: 2px solid var(--orange); color: var(--orange); }
-.btn-orange:hover { background-color: var(--orange); border: 2px solid var(--orange); color: var(--black); }
+/* text  */
+.subtittle   { color: var(--grey); font-family: Hack, monospace; }
+.normal-text { color: var(--white); font-family: Arial, Helvetica, sans-serif; }
+.code-block  { font-family: Hack, monospace; }
+.hack { font-family: Hack, monospace; }
+/* .addinfo { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; } */
 
-.btn-yellow { background-color: var(--black); border: 2px solid var(--yellow); color: var(--yellow); }
-.btn-yellow:hover { background-color: var(--yellow); border: 2px solid var(--yellow); color: var(--black); }
+/*==============
+  NAVIGATION &
+  OMNI-PRESENT
+==============*/
 
-.btn-green { background-color: var(--black); border: 2px solid var(--green); color: var(--green); }
-.btn-green:hover { background-color: var(--green); border: 2px solid var(--green); color: var(--black); }
-
-.btn-blue { background-color: var(--black); border: 2px solid var(--blue);color: var(--blue); }
-.btn-blue:hover { background-color: var(--blue); border: 2px solid var(--blue);color: var(--black); }
-
-.btn-violet { background-color: var(--black); border: 2px solid var(--violet); color: var(--violet); }
-.btn-violet:hover { background-color: var(--violet); border: 2px solid var(--violet); color: var(--black); }
-
-body { background-color: var(--black); }
-
-p a { color: var(--blue); text-decoration: none; }
-nav a:hover { color: var(--white); text-decoration: bold; }
-p a:hover { color: var(--blue); text-decoration: underline; }
-
-body { 
-    background-color: var(--black);
+footer                 { width: 100%; float: left; }
+footer ul li a b       { color: var(--white) }
+footer ul li a b:hover { text-decoration: underline; }
+footer a               { text-decoration: none; margin-right: 1rem; }
+footer li a:hover      { text-decoration: underline; }
+footer li              { list-style: none; }
+footer ul li a         {
+    display: inline-block;
+    font-family: Hack, monospace;
+    margin-top: .5rem;
+    float: none; 
+    list-style: none;
+    color: var(--blue)
 }
 
-.logo { 
-    float: left;
-    color: var(--pink); 
+nav           { float: right }
+header::after { content: ''; display: table; clear: both; }
+nav ul        { margin: 0; padding: 0; list-style: none; }
+nav a         { color: var(--blue); text-decoration: none; text-transform: lowercase; } /*color per link */
+nav a:hover   { color: var(--white); text-decoration: bold; }
+nav li        { 
+    display: inline-block; 
+    margin-left: 70px; 
+    padding-left: 70px; 
+    padding-top: 30px; 
     font-family: Hack, monospace; 
-    /* padding: 5px;   */
-    text-decoration: none;
 }
 
-header {
-    color: #181B25;
-    padding-bottom: 10px;
+header { padding-bottom: 10px; margin-bottom: 0px; }
+.logo { float: left; color: var(--pink); font-family: Hack, monospace; text-decoration: none; }
+
+.content  { width: 70%; float: left; }
+.sidebar  { width: 20%; float: right; }
+
+/*==============
+   /branding
+==============*/
+
+.color-holder {
+    height: 13rem; 
+    margin: 0px; 
+    padding: 0px; 
+
+} 
+
+.main-color {
+    float: left; 
+    height: 13.2rem; 
+    width: 44%;
+    border-width: 1px;
+    background-color: var(--white);
+    padding: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+
+.extra-color {
+    float: right; 
+    height: 4rem; 
+    width: 43%;
+    border-width: 1px;
+    border: var(--black) solid; 
+    border-width: 1px;
+    background-color: var(--white);
+    padding: 5%;
+    padding-top: 0px;
+    padding-left: 1rem;
+    padding-right: 0px;
+    padding-bottom: 2.35rem;
+    margin-top: 2px;
     margin-bottom: 0px;
+    border-radius: 10px;
 }
 
-/* ALERT BOXES */
+/*==============
+     ALERTS 
+==============*/
+
 .critical-warning { 
     height: auto; 
     width: 90%;
@@ -222,151 +209,47 @@ header {
     border-radius: 5px;
 }
 
-.color-holder {
-    height: 13rem; 
-    margin: 0px; 
-    padding: 0px; 
+/*==============
+     BUTTONS 
+==============*/
 
-} 
-
-.main-color {
-    float: left; 
-    height: 13.2rem; 
-    width: 44%;
-    border-width: 1px;
-    background-color: var(--white);
-    padding: 5%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-radius: 10px;
+button:hover {
+    background-color: var(--white); 
+    border: 2px solid var(--white);
+    color: var(--black);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 3px;
+    font-family: Hack, monospace;
+    width: 100%
 }
 
-.extra-color {
-    float: right; 
-    height: 4rem; 
-    width: 43%;
-    border-width: 1px;
-    border: var(--black) solid; 
-    border-width: 1px;
-    background-color: var(--white);
-    padding: 5%;
-    padding-top: 0px;
-    padding-left: 1rem;
-    padding-right: 0px;
-    padding-bottom: 2.35rem;
-    margin-top: 2px;
-    margin-bottom: 0px;
-    border-radius: 10px;
+button {
+    background-color: var(--black); 
+    border: 2px solid var(--white);
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 2px;
+    font-family: Hack, monospace;
+    width: 100%;
 }
 
-/* .colorbox { 
-    height: 12rem; 
-    width: auto;
-    /* float: middle; 
-    border: var(--black) solid; 
-    border-width: 1px;
-    outline-width: 1px;
-    background-color: var(--white);
-    padding: 5%; 
-    margin: 1px;
-    padding-top: 0px; 
-    padding-bottom: 0px;
-    border-radius: 10px;
-} */
-
-ul {
-    list-style: disc;
-}
-
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #F5FBEF;
-} 
-
-body { 
-    padding: 10%; 
-    padding-top: 0px;
-    margin-top: 0px;
-    color: #181B25; 
-}
-
-.content {
-    width: 70%;
-    float: left; 
-}
-
-.sidebar { 
-    width: 20%;
-    float: right; 
-}
-
-.footer {
-    width: 80%;
-}
-
-/* .container { 
-    padding-top: 0px; 
-    padding-left: 0rem; 
-    padding-right: 0px; 
-} */
-
-/* .box33 { 
-    display: grid;
-    height: auto; 
-    width: 33%; 
-    margin: 1.5rem; 
-}
-
-.box50 { 
-    display: inline-block; 
-    height: auto; 
-    width: 300px; 
-    margin: 1.5rem;
-}
-
-.box100px { 
-    display: inline-block; 
-    height: auto; 
-    width: 660px; 
-    margin: 1.5rem;
-} */
-
-/*
-.footer { 
-    font-family: Arial, Helvetica, sans-serif; 
-    margin-bottom: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    position: left; 
-}
-*/
-
-/* header sizes */
-.size-1 { font-family: Hack, monospace; font-size: 2.5rem; }
-.size-2 { font-family: Hack, monospace; font-size: 2rem;   } 
-.size-3 { font-family: Hack, monospace; font-size: 1.5rem; }
-.size-4 { font-family: Arial, Helvetica, sans-serif; font-size: 1.1rem; }
-.size-5 { font-family: Arial, Helvetica, sans-serif; font-size: 1rem; }
-.size-6 { color: var(--grey); font-size: 0.75rem; font-family: Hack, monospace; }
-
-.topbound { padding: 0px; margin: 0px; margin-top: 10px;}
-/* .sink-left { position: absolute; bottom: 5px; left: 5px; } */
-
-/* colors */
-.red    { color: var(--red);    }
-.orange { color: var(--orange); }
-.yellow { color: var(--yellow); }
-.green  { color: var(--green);  }
-.blue   { color: var(--blue);   }
-.violet { color: var(--violet); }
-.pink   { color: var(--pink);   }
-
-.black  { color: var(--black); } /* backround */
-.grey   { color: var(--grey);  } /* for date/time of posts and subtittles */
-.white  { color: var(--white); } /* for paragraph text. */
-
-/* text  */
-.subtittle   { color: var(--grey); font-family: Hack, monospace; }
-.normal-text { color: var(--white); font-family: Arial, Helvetica, sans-serif; }
-.code-block  { font-family: Hack, monospace; }
-/* .addinfo { color: #ADADAD; font-size: 0.75rem; font-family: Hack, monospace; } */
+.btn-red { background-color: var(--black); border: 2px solid var(--red); color: var(--red); }
+.btn-red:hover { background-color: var(--red); border: 2px solid var(--red); color: var(--black); }
+.btn-orange { background-color: var(--black); border: 2px solid var(--orange); color: var(--orange); }
+.btn-orange:hover { background-color: var(--orange); border: 2px solid var(--orange); color: var(--black); }
+.btn-yellow { background-color: var(--black); border: 2px solid var(--yellow); color: var(--yellow); }
+.btn-yellow:hover { background-color: var(--yellow); border: 2px solid var(--yellow); color: var(--black); }
+.btn-green { background-color: var(--black); border: 2px solid var(--green); color: var(--green); }
+.btn-green:hover { background-color: var(--green); border: 2px solid var(--green); color: var(--black); }
+.btn-blue { background-color: var(--black); border: 2px solid var(--blue);color: var(--blue); }
+.btn-blue:hover { background-color: var(--blue); border: 2px solid var(--blue);color: var(--black); }
+.btn-violet { background-color: var(--black); border: 2px solid var(--violet); color: var(--violet); }
+.btn-violet:hover { background-color: var(--violet); border: 2px solid var(--violet); color: var(--black); }
