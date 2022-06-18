@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Hack, hack;
+    src: url(/Hack-ttf/Hack-Regular.ttf) format("truetype");
+}
 
 :root { 
     --red: #FC9797;
@@ -27,6 +31,9 @@
 
     --white: #F5FBEF; /* paragraph text */
     --grey:  #ADADAD; 
+
+    --monospace: Hack, monospace; 
+    --normal: Arial, Helvetica, sans-serif
 }
 
 .hack { font-family: Hack, monospace; }
@@ -73,6 +80,51 @@ button {
     font-family: Hack, monospace;
     width: 100%;
 }
+
+footer { 
+    width: 100%; 
+    float: left; 
+}
+
+footer ul li a {
+    display: inline-block;
+    font-family: Hack, monospace;
+    margin-top: .5rem;
+    float: none; 
+    list-style: none;
+    color: var(--blue)
+}
+
+footer ul li a b { color: var(--white) }
+footer ul li a b:hover { text-decoration: underline; }
+
+footer a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+footer li a:hover {
+    text-decoration: underline; 
+}
+
+footer li {
+    list-style: none;
+}
+
+nav           { float: right }
+header::after { content: ''; display: table; clear: both; }
+nav ul        { margin: 0; padding: 0; list-style: none; }
+nav a         { color: var(--blue); text-decoration: none; text-transform: lowercase; } /*color per link */
+nav a:hover   { color: var(--white); text-decoration: bold; }
+
+nav li        { 
+    display: inline-block; 
+    margin-left: 70px; 
+    padding-left: 70px; 
+    padding-top: 30px; 
+    font-family: Hack, monospace; 
+}
+
 
 .hack { font-family: Hack, monospace; }
 
@@ -221,20 +273,6 @@ header {
     padding-bottom: 0px;
     border-radius: 10px;
 } */
-
-nav           { float: right }
-header::after { content: ''; display: table; clear: both; }
-nav ul        { margin: 0; padding: 0; list-style: none; }
-nav a         { color: #AEFCFE; text-decoration: none; text-transform: lowercase; } /*color per link */
-nav a:hover   { color: #F5FBEF; text-decoration: bold; }
-
-nav li        { 
-    display: inline-block; 
-    margin-left: 70px; 
-    padding-left: 70px; 
-    padding-top: 30px; 
-    font-family: Hack, monospace; 
-}
 
 ul {
     list-style: disc;
