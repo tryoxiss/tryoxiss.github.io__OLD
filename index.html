@@ -8,58 +8,36 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+    <script src="js/homepage.js"></script>
 </head>
-<body>
-    <header>
-        <p class="logo"><img src="img/logo-outlined-transparent.png" width="200px" height="50px" alt="tryoxiss logo"></p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="blog" style="margin: left 1rem;">blog; </a>
-                    <a href="mystuff" style="margin: left 1rem;">my stuff; </a>
-                    <a href="contact" style="margin: left 1rem;">contact;</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <secton class="content">
-        <h1 class="size-1 red">Hello! I'm tryo!</h2>
-        <p>Hello! I make and break things on the internet, as in to say: I am a front and back end developer. I work on all sorts of (especially <abbr title="Projects where anyone can see and often modify the uncompiled 'source code'.">[open source]</abbr> projects). I try and release the source everything I do and put it under a lenient licence. I strongly believe in avalibility and freedom of information, and you can find most of my source code on my <a href="https://github.com/tryoxiss" class="blue">GitHub</a>.</p>
+<body style="background-image: url('img/homebackground.jpg'); background-size: 100%;"> 
+    
+    <h1 class="green" style="margin-top: 12rem; font-size: 4rem; margin-bottom: 0rem;" id="rainbow_logo">tryoxiss</h1>
+    <!-- <h1 class="green" style="margin-top: 12rem; font-size: 4rem; margin-bottom: 0rem; "><img src="img/logo-anim-cleanbox.gif" style="width: 26rem; margin-bottom: 0px; "></h1> -->
 
-        <h2 class="size-2 orange">here's some basics:</h2>
-        <p> </p>
-        <p><a href="/faq">More Frequently Asked Questions</a></p>
+    <h2 class="green" style="font-size: 1.5rem; margin-top: 0px; ">I make and breaks things.</h2>
 
-        <h2 class="size-2 yellow">I make things,</h2>
-        <p></p>
-        <button class="btn-yellow" onclick="window.location.href='mystuff';">My Stuff!</button>
+    <button class="btn-green" style="width: 45%; float: right; margin-top: 10rem;" onclick="window.location.href = '/mystuff';" >mystuff</button>
 
-        <h2 class="size-2 green">break things,</h2>
-
-        <h2 class="size-2 blue">and talk about game design!</h2>
-        <button class="btn-blue" onclick="window.location.href='mystuff';">Blog :P</button>
-
-        <h2 class="size-2 violet">Contact</h2>
-            <p class="normal-text"><a class="normal-text" href="faq">Please check the <abbr title="Frequently Asked Questions">[FAQ]</abbr> before submitting questions. Thanks :D</a></p>
-            <button class="btn-violet" onclick="window.location.href='contact';">Contact Page</button>
-            <p class="size-6 grey hack">Tryoxiss is under no obligation to read to respond to any communication she gets. All communications not formatted properly will be marked as spam and ignored. Please read <a href="/contact">this article</a> for more info.</p>
-    </secton>
-
-    <!---
-    <section>
-        <ul class="footer">
-            <li><a href="tryoxiss.github.io/blog"><b>About</b></a></li>
-            <li><a href="tryoxiss.github.io/blog">projects</a></li>
-            <li><a href="tryoxiss.github.io/blog"></a>FAQ</li>
-            <li><a href="tryoxiss.github.io/blog">.config</a></li>
-            <li><a href="tryoxiss.github.io/blog"><b>Blog</b></a></li>
-            <li><a href="tryoxiss.github.io/blog">Recent</a></li>
-            <li><a href="tryoxiss.github.io/blog">Topics</a></li>
-            <li><a href="tryoxiss.github.io/blog"><b>Misc</b></a></li>
-            <li><a href="tryoxiss.github.io/blog">Contact</a></li>
-            <li><a href="tryoxiss.github.io/blog">Studio</a></li>
+    <footer class="homefoot"; style="width: 100%; margin-bottom: 0rem; margin-top: 4rem;">
+        <ul>
+            <li>
+                <!-- <a href=""><b>image by khaim</b></a>
+                <a href=""> | </a> -->
+                <a href="/mystuff/index"><b>mystuff</b></a>
+                <a href="/eytelia/index">world</a>
+                <a href="/corrections">corrections</a>
+                <a href="/blog">blog</a>
+                <a> | </a>
+                <a href=""><b>tryoxiss</b></a>
+                <a href="/faq">faq</a>
+                <a href="/contact">contact</a>
+                <a href="/branding">brandkit</a>
+            </li>
         </ul>
-    </section>
-    -->
+        <ul><li><p class="hack grey">most assets copyright © <a href="tryoxiss.itch.io" class="white">tryoxiss</a> 2022 or later. image created by <a href="khaim0919.itch.io" class="white">khaim0919</a>. (beautiful girlfriend!)</p></li></ul>
+
+    </footer>
+
 </body>
 </html>
