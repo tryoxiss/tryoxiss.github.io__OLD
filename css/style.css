@@ -31,8 +31,8 @@
 
     --white: #F5FBEF; /* paragraph text */
     --grey:  #C2C2C2; 
-
-    /* UNUSED (LEGACY) : --deep-grey: #ADADAD; */
+    --deep-grey: #ADADAD;
+    --black-grey: #505050;
 
     --monospace: Hack, monospace; 
     --normal: Arial, Helvetica, sans-serif
@@ -72,9 +72,31 @@ h6 { font-family: Hack, monospace; color: var(--white);font-size: 1.5rem;  }
 .violet { color: var(--violet); }
 .pink   { color: var(--pink);   }
 
-.black  { color: var(--black); } /* backround */
-.grey   { color: var(--grey);  } /* for date/time of posts and subtittles */
-.white  { color: var(--white); } /* for paragraph text. */
+.black  { color: var(--black);    } /* backround */
+.grey   { color: var(--grey);     } /* for date/time of posts and subtittles */
+.d-grey { color: var(--deep-grey) }
+.b-grey { color: var(--black-grey)}
+.white  { color: var(--white);    } /* for paragraph text. */
+
+.px2-outlined {
+    /* color: ; */
+    -webkit-text-stroke: 2px var(--black); 
+    /* text-shadow:
+    -2px -2px 0 var(--black),
+    2px -2px 0 var(--black),
+    -2px 2px 0 var(--black),
+    2px 2px 0 var(--black);   */
+}
+
+.px1-outlined {
+    /* color: ; */
+    -webkit-text-stroke: 1px var(--black); 
+    /* text-shadow:
+    -2px -2px 0 var(--black),
+    2px -2px 0 var(--black),
+    -2px 2px 0 var(--black),
+    2px 2px 0 var(--black);   */
+}
 
 /* text  */
 .subtittle   { color: var(--grey); font-family: Hack, monospace; }
@@ -88,10 +110,28 @@ h6 { font-family: Hack, monospace; color: var(--white);font-size: 1.5rem;  }
   OMNI-PRESENT
 ==============*/
 
+.home-drop-shadow {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.footdev       { text-decoration: none; color: var(--deep-grey); cursor: default; }
+.footdev:hover { text-decoration: none; color: var(--deep-grey); cursor: default; }
+.homefoot      { 
+    margin-right: 0px; 
+    text-shadow: 2px 2px 2px #000000;
+}
+.hidescroll    {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.greenlink a { color: var(--green); font-size: 1.1rem; } 
+
 footer                 { width: 100%; float: left; }
+footer ul li p a       { text-decoration: none; margin-right: 0px; }
 footer ul li a b       { color: var(--white) }
 footer ul li a b:hover { text-decoration: underline; }
-footer a               { text-decoration: none; margin-right: 1rem; }
+footer ul li a         { text-decoration: none; margin-right: 1rem; }
 footer li a:hover      { text-decoration: underline; }
 footer li              { list-style: none; }
 footer ul li a         {
@@ -101,7 +141,7 @@ footer ul li a         {
     float: none; 
     list-style: none;
     color: var(--blue)
-}
+}a
 
 nav           { float: right }
 header::after { content: ''; display: table; clear: both; }
